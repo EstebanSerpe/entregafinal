@@ -1,0 +1,732 @@
+*{padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ 
+}
+
+
+header{ 
+        display: flex;
+        flex-direction: column;
+       
+        
+}
+       
+
+header nav ul  {padding: 10px;
+               font-family: Arial, Helvetica, sans-serif;color:aliceblue;
+               background-color:black;
+               font-size: 24px;
+               list-style-type: none;
+               display:flex;
+               justify-content: space-around;
+        
+        
+         }
+
+         
+header nav ul li a {text-decoration: none;
+                    font-family: Arial, Helvetica, sans-serif;color: fuchsia;
+}
+                    
+
+
+
+
+  header ul {display:flex;
+      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap
+
+
+  }     
+
+        
+         
+
+#NuestrosProductos h1  {display:flex;
+                        justify-content:center;
+                        padding-top: 70px;
+                        font-family: Arial, Helvetica, sans-serif;color: fuchsia;
+                        font-size: 40px;
+                       
+
+
+}
+#NuestrosProductos span {display:flex;
+                      justify-content: center;
+                      padding-top: 50px;
+                      font-family: 'Times New Roman', Times, serif;color:aliceblue;
+                      font-size: 25px;
+                      
+
+}
+
+
+
+
+
+
+
+
+
+.card {
+      
+      background-color:fuchsia;
+      border-radius: 20px;
+      height: 300px;
+      width: 300px;
+      padding-top: 70px;
+      margin: 10px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      align-content: center;
+     
+    
+      
+      
+         
+      
+    
+    }
+      
+    
+
+        
+     
+     
+  
+
+.card p { display:flex;
+          justify-content:center;
+          padding: 20px;
+          font-family: Arial, Helvetica, sans-serif;color: aliceblue;
+    
+
+
+}
+
+
+
+
+
+.card button {border-radius: 10px;
+              width: 50%;
+              background-color: dimgray;
+              height: 30px;
+}
+
+
+
+
+.productos{ display:flex;
+            flex-wrap:wrap;
+            flex-direction:column;
+            flex-direction: row;
+            padding-top: 70px;   
+            margin: 5px;
+            justify-content:space-around;
+            align-content: center;
+            
+           
+            
+            
+
+        
+            
+
+}
+
+    
+      
+body {background-color:black
+
+
+}
+
+
+
+
+      
+      
+
+#datoscontacto{display:grid;
+               grid-template-areas: 
+              "email   mapa  redes"
+              "email   mapa  redes"
+              "email   mapa  redes";
+              grid-template-columns: 1fr 1fr 1fr;
+              grid-template-rows: 1fr 1fr 1fr ;
+              padding-left: 50px;
+
+}          
+ 
+
+.email{grid-area: email;
+    
+}
+
+
+.redes {grid-area: redes;
+        align-items: center;
+    
+}
+
+
+.mapa {grid-area: mapa;
+    
+
+}
+
+
+ .redes ul li a {text-decoration: none;
+                 font-family: Arial, Helvetica, sans-serif;color: aliceblue;
+                 font-size: 20px;
+                 
+ }               
+  
+
+ .redes ul li{list-style-type: none;
+
+ }
+
+
+.email h3 {font-family: Arial, Helvetica, sans-serif;color: aliceblue;
+
+
+}
+
+.email label {font-family: Arial, Helvetica, sans-serif;color: aliceblue;
+
+}
+
+
+ .mapa h3 {font-family: Arial, Helvetica, sans-serif;color: aliceblue;
+
+
+ }   
+
+ .mapa a{font-family: Arial, Helvetica, sans-serif;color: aliceblue;
+         text-decoration: none;
+
+
+ }
+
+footer{display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       justify-content:center;
+       align-content: center;
+       padding-top: 70px;
+       background-color:darkgray;  
+       margin: 70px 0 0;
+       height: 300px;
+       max-width: 100%;
+       
+       
+       
+    }
+
+footer ul {display:flex;
+           flex-direction: column;
+           align-content:center;
+           
+        
+           
+
+
+}
+
+
+
+
+
+    .derechosreservados {
+        text-align:center;
+
+
+    }
+
+
+  
+    .derechosreservados {font-family: Arial, Helvetica, sans-serif;color: aliceblue;
+
+    }
+
+
+    #nuestrossabores{padding-top: 70px;
+                    justify-content:center;
+        
+    
+    
+
+
+
+}
+
+.batidos h1 {font-family: Arial, Helvetica, sans-serif;color: fuchsia;
+    padding-top: 40px;
+    text-align: center;
+    
+
+
+}
+
+
+.batidos img{padding-top: 10px ;
+             width: 500px;
+             border-radius: 30px ;
+}
+  
+
+
+.batidos { margin: 50px;
+
+
+
+}
+    
+
+.licuados {margin: 50px;
+
+
+}
+
+
+
+.smoothies{margin: 50px;
+
+
+}
+
+
+.frapes{margin: 50px;
+
+
+
+}
+
+
+
+.licuados h1 {font-family: Arial, Helvetica, sans-serif;color: fuchsia;
+              padding-top: 40px;
+              text-align: center;
+
+
+
+
+}
+
+.licuados img{padding-top: 10px;
+              width: 500px;
+              border-radius: 30px 
+
+
+}
+
+
+.smoothies h1 {font-family: Arial, Helvetica, sans-serif;color: fuchsia;
+    padding-top: 40px;
+    text-align: center;
+    
+
+
+
+}
+
+
+.smoothies  img{padding-top: 10px;
+                width: 500px;
+                border-radius: 30px 
+
+
+
+}
+
+
+.frapes h1 {font-family: Arial, Helvetica, sans-serif;color: fuchsia;
+padding-top: 40px;
+text-align: center;
+
+}
+
+.frapes img {
+padding-top: 10px;
+width: 500px;
+height: 335px;
+border-radius: 30px
+
+}
+
+ .sabores{
+         
+         max-width: 100%;
+         display:grid;
+         grid-gap: 20px;
+         grid-template-columns:repeat(2, 1fr);
+         grid-template-rows:repeat(2, 1fr);
+        
+    
+
+
+}
+
+
+
+
+
+
+
+
+.encontranos img { display:flex;                                                  width: 60px;
+                   height: 40px;
+                   margin: 40px;
+
+
+
+}
+
+
+.encontranos h3 {font-family: Arial, Helvetica, sans-serif;color:black;
+                 font-size: 24px;
+                 text-align: justify;
+                 
+
+    
+
+
+
+}
+
+.encontranos{  display:flex;
+               
+               
+
+                 
+              
+              
+           
+            
+            
+
+
+}
+
+
+.redessociales{display:flex;
+       flex-direction:row;
+       align-content:flex-start;
+       align-items: center;
+      justify-content:center;
+       width: 500px;
+       height: 200px;
+       margin: 50px;
+       
+       
+
+
+}
+
+.redessociales ul li a {text-decoration: none;
+                list-style-type: none;
+                font-family: Arial, Helvetica, sans-serif;color: black;
+                font-size: 24px;
+                
+
+
+}
+
+
+
+
+.credessociales{display:flex;
+    flex-direction:column;
+    align-content:flex-start;
+    align-items: center;
+   justify-content:center;
+  font-size: 24px;
+     width: 500px;
+    height: 200px;
+    margin: 50px;
+
+
+
+
+
+}
+
+.contactanos{display:flex;
+              flex-direction: row;
+            
+
+
+}
+
+
+.credessociales h2{padding: 20px;
+    
+
+
+
+}
+
+
+.credessociales ul li a {text-decoration: none;
+                         
+
+
+
+
+}
+
+.credessociales ul li{list-style-type: none;
+
+
+}
+
+
+
+#contactanos img {width: 100%;
+                 padding: 70px; 
+              
+          
+
+}
+
+
+
+.conocenos{display:grid;
+    grid-template-areas:"laempresa laempresa  mision    mision "
+                        "laempresa laempresa  mision    mision " 
+                        "valores   valores   proposito proposito" 
+                        "valores   valores   proposito proposito" ;
+
+
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                        grid-template-rows: 1fr 1fr 1fr 1fr ;
+
+
+
+
+}
+
+#nosotros {
+           display:flex;
+           padding: 165px;
+           align-items:normal;
+           justify-content:space-between;
+           font-family: Arial, Helvetica, sans-serif;color: aliceblue;
+           font-size: 20px;
+        }
+
+           
+
+  
+
+    .laempresa  { width: 500;
+                 height: 300;
+
+
+
+    }
+
+
+   
+              
+
+
+.mision img { width: 500px;
+              height: 300px;
+              
+
+
+
+
+}
+
+
+
+.proposito {width: 500px;
+                height: 300px;
+                
+
+
+}
+
+
+
+.valores img {width: 500px;
+             height: 300px;
+           
+          
+
+
+}
+
+
+
+
+  
+
+.laempresa{grid-area: laempresa;
+    
+   
+
+
+}
+
+.mision {grid-area: mision;
+    
+
+
+
+
+}
+
+.valores {grid-area: valores;
+    
+
+
+
+}
+
+
+.proposito {grid-area: proposito;
+    
+
+
+
+
+}
+
+
+#quienessomos h1 {text-align: center;
+                 font-family: 'Times New Roman', Times, serif;color:fuchsia;
+                 padding: 70px;
+                 font-size: 50px;
+
+
+
+}
+
+#quienessomos span {display:flex;
+    font-family: 'Times New Roman', Times, serif;color: aliceblue;
+    font-size: 25px;
+    justify-content: center;
+
+
+
+
+}
+
+#dondeencontrarnos img {padding-top: 70px;
+                        width: 100%;
+                        
+                        
+                       
+
+
+
+
+
+}
+
+#dondeencontrarnos h1{font-family: 'Times New Roman', Times, serif;color: fuchsia;
+                      font-size: 40px;
+                      text-align: center; 
+                      padding: 70px;
+
+
+
+
+
+}
+
+
+
+
+#Encontranos h2{ font-family: Arial, Helvetica, sans-serif;color:fuchsia;
+                font-size: 35px;
+                 padding: 40px;
+                 text-align: center;
+                 padding: 40px;
+
+
+}
+
+.Encontranos ul li{font-family: 'Times New Roman', Times, serif;color: aliceblue;
+                   font-size: 25px;
+                   list-style-type: none;
+                   text-align: center;    
+
+}
+
+
+@media screen (max-width: 320px;) {.productos } 
+@media screen  (max-width 900px ){.productos } 
+@media screen (min-width 320px){footer  }
+
+
+    
+@media screen (min-width 300px;) {.sabores {grid-template-columns:(1, 1fr);
+    grid-template-rows: (1, 1fr);
+   } }  
+    
+@media screen (max-width 350px;) {.sabores
+    
+}
+
+
+
+    
+
+    
+
+    
+  
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+  
+
+                         
+                    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+
+
+
+    
+
